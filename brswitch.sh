@@ -32,9 +32,11 @@ to_default() {
 
 main() {
     regular_to
+
     echo "brew remote set to ${to} ..."
     to_${to}
     echo "brew remote set to ${to} ... done"
+    
     echo "brew update ..."
     brew update
     echo "brew update ... done"
