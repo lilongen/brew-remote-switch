@@ -4,24 +4,24 @@
 
 ### run directly without git clone or download to local firstly
 - switch brew remote repository to china tsinghua mirror
-<pre>
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/lilongen/brew-remote-switch/master/brswitch.sh)" "" tsinghua
-</pre>
+```
 - switch brew remote repository to original default
-<pre>
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/lilongen/brew-remote-switch/master/brswitch.sh" "" default
-</pre>
+```
 
 ### download to local and run
 - download or git clone
-<pre>
+```shell
 curl -Lo brswitch.sh https://raw.githubusercontent.com/lilongen/brew-remote-switch/master/brswitch.sh
-</pre>
+```
 or
-<pre>
+```shell
 git clone https://github.com/lilongen/brew-remote-switch.git
-</pre>
+```
 - switch brew remote repository to china tsinghua mirror
-<pre>./brswitch.sh tsinghua</pre>
+```shell./brswitch.sh tsinghua```
 - switch brew remote repository to original default
-<pre>./brswitch.sh default</pre>
+```shell./brswitch.sh default```
