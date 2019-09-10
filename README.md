@@ -22,6 +22,10 @@ or
 git clone https://github.com/lilongen/brew-remote-switch.git
 ```
 - switch brew remote repository to china tsinghua mirror
-```shell./brswitch.sh tsinghua```
+```shell
+./brswitch.sh tsinghua
+```
 - switch brew remote repository to original default
-```shell./brswitch.sh default```
+```shell
+./brswitch.sh default
+```
