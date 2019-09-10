@@ -16,6 +16,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/lilongen/brew-remote-switc
 - download or git clone
 <pre>
 curl -Lo brswitch.sh https://raw.githubusercontent.com/lilongen/brew-remote-switch/master/brswitch.sh
+</pre>
+or
+<pre>
 git clone https://github.com/lilongen/brew-remote-switch.git
 </pre>
 - switch brew remote repository to china tsinghua mirror
