@@ -4,11 +4,11 @@
 to=${1:-null}
 
 usage() {
-	echo "usage:"
-	echo "$0 %to, %to valid value: default or tsinghua"
+    echo "usage:"
+    echo "$0 %to, %to valid value: default or tsinghua"
     echo "$0 tsinghua"
     echo "$0 default"
-	echo 
+    echo 
 }
 
 regular_to() {
