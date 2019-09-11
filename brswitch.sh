@@ -37,6 +37,7 @@ switch() {
     git -C "$(brew --repo homebrew/core)" remote set-url origin ${url_base}/homebrew-core.git
     git -C "$(brew --repo homebrew/cask)" remote set-url origin ${url_base}/homebrew-cask.git
     echo "export HOMEBREW_BOTTLE_DOMAIN=${bottles_url}" >> ~/.bash_profile
+    source ~/.bash_profile
 }
 
 main() {
